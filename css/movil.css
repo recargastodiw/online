@@ -1,0 +1,28 @@
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  /* Ajustar el tamaño de la fuente */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Alinear el texto al centro */
+  main {
+    text-align: center;
+  }
+  
+  /* Ajustar el tamaño de la imagen */
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+}
+.piedepagina{
+  position: fixed;
+   bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+
+  color: #fff;
+  text-align: center;
+}
